@@ -1,3 +1,39 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url('/assets/fonts/Gabarito-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Gabarito-Medium';
+    src: url('/assets/fonts/Gabarito-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gabarito-SemiBold';
+    src: url('/assets/fonts/Gabarito-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Gabarito-Bold';
+    src: url('/assets/fonts/Gabarito-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Gabarito-ExtraBold';
+    src: url('/assets/fonts/Gabarito-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Gabarito-Black';
+    src: url('/assets/fonts/Gabarito-Black.ttf') format('truetype');
+    font-weight: 900;
+}

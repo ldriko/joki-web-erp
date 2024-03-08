@@ -6,7 +6,149 @@
         <title>PT. Ikajaya</title>
         <link rel="stylesheet" href="style.css" />
     </head>
-    <body>
-        <h1 class="text-2xl">Hello World!</h1>
+    <body class="text-sm font-sans">
+        <header
+            class="h-16 sticky top-0 z-[999] flex items-center bg-blue-900 text-white shadow"
+        >
+            <div
+                class="w-full max-w-screen-lg mx-auto flex items-center justify-between"
+            >
+                <h1 class="text-xl font-bold">PT. IKAJAYA</h1>
+                <div class="flex gap-10">
+                    <a
+                        href="#about"
+                        class="px-4 py-2 rounded-lg transition hover:bg-blue-950"
+                    >
+                        Tentang
+                    </a>
+                    <a
+                        href="#contact"
+                        class="px-4 py-2 rounded-lg transition hover:bg-blue-950"
+                    >
+                        Kontak
+                    </a>
+                    <a
+                        href="login.html"
+                        class="flex items-center px-4 py-2 bg-white text-blue-950 rounded-lg transition hover:outline hover:outline-blue-800"
+                    >
+                        Login
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="border-b-2 border-dashed">
+                <div class="max-w-screen-lg mx-auto py-32">
+                    <div class="grid gap-4 grid-cols-5">
+                        <div class="col-span-3 grid gap-4">
+                            <h1 class="text-5xl">
+                                Memberikan
+                                <span class="text-blue-900">Kenyamanan</span>
+                                dan
+                                <span class="text-amber-400">Fokus</span>
+                                dalam Keseharianmu
+                            </h1>
+                            <p class="text-lg text-black text-opacity-70">
+                                Kami menyediakan berbagai macam peralatan rumah
+                                tangga yang dapat membantu anda dalam bekerja
+                                dan juga menjamin kenyamanan dalam rumah.
+                            </p>
+                        </div>
+                        <div class="col-span-2 relative">
+                            <img
+                                src="/assets/images/rice_cooker.webp"
+                                alt="Rice Cooker"
+                                class="absolute h-48"
+                            />
+                            <img
+                                src="/assets/images/hair_dryer.webp"
+                                alt="Hair Dryer"
+                                class="absolute w-auto h-48 right-0 top-8"
+                            />
+                            <img
+                                src="/assets/images/ac.webp"
+                                alt="Air Conditioner"
+                                class="absolute w-auto h-48 right-0 -bottom-16"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="about" class="bg-gray-100 border-b-2 border-dashed">
+                <div
+                    class="max-w-screen-lg grid gap-10 grid-cols-5 mx-auto py-24"
+                >
+                    <div class="col-span-2">
+                        <img
+                            src="/assets/images/company.webp"
+                            alt="PT. IKAJAYA"
+                            class="rounded-lg aspect-square"
+                        />
+                    </div>
+                    <div class="col-span-3">
+                        <div class="grid gap-4">
+                            <h1 class="text-2xl font-bold">
+                                Tentang PT. IKAJAYA
+                            </h1>
+                            <p class="text-lg text-black text-opacity-70">
+                                Kamu merupakan perusahaan yang bergerak dalam
+                                bidang penjualan peralatan rumah tangga. Kami
+                                menyediakan berbagai macam peralatan rumah
+                                tangga yang dapat membantu anda dalam bekerja
+                                dan juga menjamin kenyamanan dalam rumah.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <div
+                    class="max-w-screen-lg grid gap-10 grid-cols-5 mx-auto py-24"
+                >
+                    <div class="col-span-3">
+                        <h1 class="text-2xl font-bold" id="contact">
+                            Kontak Kami
+                        </h1>
+                        <p class="text-lg text-black text-opacity-70">
+                            Jika kamu memiliki pertanyaan atau ingin
+                            berkomunikasi dengan kami, kamu dapat menghubungi
+                            kami melalui kontak yang tersedia.
+                        </p>
+                    </div>
+                    <div class="col-span-2 grid gap-4">
+                        <div class="grid gap-4">
+                            <div>
+                                <h1 class="text-lg font-bold">Alamat</h1>
+                                <p class="text-black text-opacity-70">
+                                    Jl. Raya Cileungsi No. 1, Cileungsi, Bogor,
+                                    Jawa Barat
+                                </p>
+                            </div>
+                            <div>
+                                <h1 class="text-lg font-bold">Telepon</h1>
+                                <p class="text-black text-opacity-70">
+                                    +62 812-3456-7890
+                                </p>
+                            </div>
+                            <div>
+                                <h1 class="text-lg font-bold">Email</h1>
+                                <p class="text-black text-opacity-70">
+                                    ikajaya@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="h-8 flex items-center bg-blue-900 text-white">
+                <div class="max-w-screen-lg mx-auto">
+                    <p class="text-center">
+                        &copy; 2024 PT. IKAJAYA. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
