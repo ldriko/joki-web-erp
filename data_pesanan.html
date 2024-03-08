@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PT. Ikajaya</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="font-sans">
+        <div class="grid grid-cols-6">
+            <section class="h-dvh col-span-1 bg-blue-900">
+                <div class="py-4 border-b border-dashed border-blue-950">
+                    <img
+                        src="/assets/images/logo.webp"
+                        alt="Logo"
+                        class="w-24 mx-auto"
+                    />
+                </div>
+                <ul class="grid gap-2 p-2 text-sm">
+                    <li>
+                        <a
+                            href="/dashboard.html"
+                            class="block px-4 py-2 hover:bg-black hover:bg-opacity-15 text-white rounded-lg cursor-pointer"
+                        >
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="px-4 text-white">Penjualan</li>
+                    <li>
+                        <a
+                            href="/data_pesanan.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer bg-black bg-opacity-15"
+                        >
+                            Pesanan
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/laporan_penjualan.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Laporan
+                        </a>
+                    </li>
+                    <li class="px-4 text-white">Manufaktur</li>
+                    <li>
+                        <a
+                            href="/data_produksi.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Produksi
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/data_hasil.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Hasil Produksi
+                        </a>
+                    </li>
+                    <li class="px-4 text-white">Inventaris</li>
+                    <li>
+                        <a
+                            href="/data_produk.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Produk
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/data_bahan.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Bahan
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <main class="col-span-5 py-10">
+                <div class="grid gap-4 px-10">
+                    <div>Pesanan</div>
+                    <table
+                        class="w-full table-auto text-sm rounded-lg overflow-hidden"
+                    >
+                        <thead class="bg-blue-900 text-white">
+                            <tr class="*:p-2 *:font-normal">
+                                <th>No.</th>
+                                <th>Tanggal</th>
+                                <th>Nama</th>
+                                <th>Telepon</th>
+                                <th>Alamat</th>
+                                <th>Produk</th>
+                                <th>Jumlah</th>
+                                <th>Total</th>
+                                <th>Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="*:border *:p-2">
+                                <td class="text-center">1</td>
+                                <td class="text-center">09/03/2024</td>
+                                <td>John Doe</td>
+                                <td>081234567890</td>
+                                <td>Jl. Lorem Ipsum</td>
+                                <td>Produk A</td>
+                                <td class="text-right">10</td>
+                                <td class="text-right font-mono">
+                                    Rp 1.000.000
+                                </td>
+                                <td class="text-red-600">Belum Dibayar</td>
+                            </tr>
+                            <tr class="*:border *:p-2">
+                                <td class="text-center">2</td>
+                                <td class="text-center">09/03/2024</td>
+                                <td>Budi Rahatno</td>
+                                <td>081234567890</td>
+                                <td>Jl. Lorem Ipsum</td>
+                                <td>Produk B</td>
+                                <td class="text-right">5</td>
+                                <td class="text-right font-mono">Rp 500.000</td>
+                                <td class="text-green-600">Dibayar</td>
+                            </tr>
+                            <tr class="*:border *:p-2">
+                                <td class="text-center">3</td>
+                                <td class="text-center">09/03/2024</td>
+                                <td>Velly</td>
+                                <td>081234567890</td>
+                                <td>Jl. Lorem Ipsum</td>
+                                <td>Produk C</td>
+                                <td class="text-right">3</td>
+                                <td class="text-right font-mono">Rp 300.000</td>
+                                <td class="text-red-600">Belum Dibayar</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
