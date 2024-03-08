@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PT. Ikajaya</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="font-sans">
+        <div class="h-dvh grid grid-cols-5">
+            <div
+                class="h-full col-span-3 flex items-center justify-center bg-blue-900"
+            >
+                <img
+                    src="/assets/images/logo.webp"
+                    alt="PT. Ikajaya"
+                    class="w-48 h-48"
+                />
+            </div>
+            <div class="h-full col-span-2 flex items-center p-16">
+                <div class="w-full grid gap-4">
+                    <div class="text-center">
+                        <h1 class="text-2xl">Login</h1>
+                        <div class="text-black text-opacity-70">
+                            Masukkan detail akun anda untuk memulai!
+                        </div>
+                    </div>
+                    <div>
+                        <label for="email" class="block">Email:</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            class="w-full p-2 border-2 rounded-lg transition focus:outline-2"
+                        />
+                    </div>
+                    <div>
+                        <label for="password" class="block">Password:</label>
+                        <input
+                            type="password"
+                            name="password"
+                            id="password"
+                            class="w-full p-2 border-2 rounded-lg transition focus:outline-2"
+                        />
+                    </div>
+                    <div>
+                        <a href="/dashboard.html">
+                            <button
+                                class="px-6 py-2 bg-blue-900 text-white rounded-lg transition hover:bg-blue-950 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+                            >
+                                Masuk
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
