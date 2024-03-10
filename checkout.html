@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PT. Ikajaya</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="font-sans">
+        <header
+            class="h-16 sticky top-0 z-[999] flex items-center bg-blue-900 text-white shadow"
+        >
+            <div
+                class="w-full max-w-screen-lg px-4 mx-auto flex items-center justify-between"
+            >
+                <a href="/index.html">
+                    <h1 class="text-xl font-bold">PT. IKAJAYA</h1>
+                </a>
+                <div class="flex gap-10">
+                    <a
+                        href="/list_produk.html"
+                        class="px-4 py-2 rounded-lg transition hover:bg-blue-950"
+                    >
+                        Produk
+                    </a>
+                    <a
+                        href="#about"
+                        class="px-4 py-2 rounded-lg transition hover:bg-blue-950"
+                    >
+                        Tentang
+                    </a>
+                    <a
+                        href="#contact"
+                        class="px-4 py-2 rounded-lg transition hover:bg-blue-950"
+                    >
+                        Kontak
+                    </a>
+                    <a href="/checkout.html" class="flex items-center">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 16 16"
+                        >
+                            <path
+                                fill="#ffffff"
+                                fill-rule="evenodd"
+                                d="M5 4a3 3 0 0 1 6 0v1h.643a1.5 1.5 0 0 1 1.492 1.35l.7 7A1.5 1.5 0 0 1 12.342 15H3.657a1.5 1.5 0 0 1-1.492-1.65l.7-7A1.5 1.5 0 0 1 4.357 5H5zm4.5 0v1h-3V4a1.5 1.5 0 0 1 3 0m-3 3.75a.75.75 0 0 0-1.5 0v1a3 3 0 1 0 6 0v-1a.75.75 0 0 0-1.5 0v1a1.5 1.5 0 1 1-3 0z"
+                                clip-rule="evenodd"
+                            />
+                        </svg>
+                    </a>
+                    <a
+                        href="login.html"
+                        class="flex items-center px-4 py-2 bg-white text-blue-950 rounded-lg transition hover:outline hover:outline-blue-800"
+                    >
+                        Login
+                    </a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="max-w-screen-lg px-4 mx-auto py-16">
+                    <div class="grid gap-4">
+                        <h1 class="text-2xl">Checkout</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div>
+                                <div class="rounded-lg border shadow">
+                                    <div class="p-4 border-b">Pesanan</div>
+                                    <div class="p-4 grid gap-4">
+                                        <div class="flex items">
+                                            <img
+                                                src="/assets/images/rice_cooker.webp"
+                                                alt="Produk"
+                                                class="w-16"
+                                            />
+                                            <div
+                                                class="flex flex-col justify-center ml-4"
+                                            >
+                                                <h2 class="text-lg font-bold">
+                                                    Rice Cooker
+                                                </h2>
+                                                <p
+                                                    class="text-sm text-black text-opacity-70"
+                                                >
+                                                    Rp100.000
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="flex gap-4 items-center ml-auto"
+                                            >
+                                                <div>
+                                                    <input
+                                                        type="text"
+                                                        class="w-10 h-10 text-center border rounded-lg"
+                                                        value="1"
+                                                    />
+                                                </div>
+                                                <button
+                                                    class="px-2 py-1 bg-red-500 text-white rounded-lg"
+                                                >
+                                                    Hapus
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="flex items">
+                                            <img
+                                                src="/assets/images/ac.webp"
+                                                alt="Produk"
+                                                class="w-16"
+                                            />
+                                            <div
+                                                class="flex flex-col justify-center ml-4"
+                                            >
+                                                <h2 class="text-lg font-bold">
+                                                    Air Conditioner
+                                                </h2>
+                                                <p
+                                                    class="text-sm text-black text-opacity-70"
+                                                >
+                                                    Rp500.000
+                                                </p>
+                                            </div>
+                                            <div
+                                                class="flex gap-4 items-center ml-auto"
+                                            >
+                                                <div>
+                                                    <input
+                                                        type="text"
+                                                        class="w-10 h-10 text-center border rounded-lg"
+                                                        value="1"
+                                                    />
+                                                </div>
+                                                <button
+                                                    class="px-2 py-1 bg-red-500 text-white rounded-lg"
+                                                >
+                                                    Hapus
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="rounded-lg border shadow">
+                                    <div class="p-4 border-b">Pembayaran</div>
+                                    <div class="p-4 grid gap-4">
+                                        <div
+                                            class="grid gap-2 text-sm text-gray-700"
+                                        >
+                                            <div class="flex justify-between">
+                                                <div>Subtotal</div>
+                                                <div>Rp600.000</div>
+                                            </div>
+                                            <div class="flex justify-between">
+                                                <div>Pajak</div>
+                                                <div>Rp66.000</div>
+                                            </div>
+                                            <div class="flex justify-between">
+                                                <div>Biaya Pengiriman</div>
+                                                <div>Rp10.000</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-between">
+                                            <div>Total</div>
+                                            <div>Rp676.000</div>
+                                        </div>
+                                        <button
+                                            class="w-full px-4 py-2 bg-blue-900 text-white rounded-lg transition hover:bg-blue-800"
+                                        >
+                                            Bayar
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="h-8">
+            <div
+                class="fixed bottom-0 w-full flex items-center bg-blue-900 text-white"
+            >
+                <div class="max-w-screen-lg px-4 mx-auto">
+                    <p class="text-center">
+                        &copy; 2024 PT. IKAJAYA. All rights reserved.
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
