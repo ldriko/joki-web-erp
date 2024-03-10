@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PT. Ikajaya</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body class="font-sans">
+        <div class="grid grid-cols-6">
+            <section class="h-dvh col-span-1 bg-blue-900">
+                <div class="py-4 border-b border-dashed border-blue-950">
+                    <img
+                        src="/assets/images/logo.webp"
+                        alt="Logo"
+                        class="w-24 mx-auto"
+                    />
+                </div>
+                <ul class="grid gap-2 p-2 text-sm">
+                    <li>
+                        <a
+                            href="/dashboard.html"
+                            class="block px-4 py-2 hover:bg-black hover:bg-opacity-15 text-white rounded-lg cursor-pointer"
+                        >
+                            Dashboard
+                        </a>
+                    </li>
+                    <li class="px-4 text-white">Penjualan</li>
+                    <li>
+                        <a
+                            href="/data_pesanan.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Pesanan
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/laporan_penjualan.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Laporan
+                        </a>
+                    </li>
+                    <li class="px-4 text-white">Manufaktur</li>
+                    <li>
+                        <a
+                            href="/data_produksi.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Produksi
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/data_hasil.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Hasil Produksi
+                        </a>
+                    </li>
+                    <li class="px-4 text-white">Inventaris</li>
+                    <li>
+                        <a
+                            href="/data_produk.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer bg-black bg-opacity-15"
+                        >
+                            Produk
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            href="/data_bahan.html"
+                            class="block pl-8 r-4 py-2 text-white rounded-lg cursor-pointer hover:bg-black hover:bg-opacity-15"
+                        >
+                            Bahan
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <main class="col-span-5 py-10">
+                <div class="grid gap-2 px-10">
+                    <div class="mb-4">
+                        <a href="/data_produk.html">
+                            <button
+                                class="px-4 py-2 bg-blue-900 text-white text-sm rounded-lg transition hover:bg-blue-950 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+                            >
+                                Kembali
+                            </button>
+                        </a>
+                    </div>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="border shadow rounded-lg">
+                            <div class="p-4 border-b">Tambah Produk</div>
+                            <div class="p-4">
+                                <form method="post">
+                                    <div class="grid gap-4 text-sm">
+                                        <div>
+                                            <label
+                                                for="code"
+                                                class="block mb-2"
+                                            >
+                                                Kode:
+                                            </label>
+                                            <input
+                                                type="text"
+                                                name="code"
+                                                id="code"
+                                                class="w-full p-2 border-2 rounded-lg transition focus:outline-2"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label
+                                                for="name"
+                                                class="block mb-2"
+                                            >
+                                                Nama:
+                                            </label>
+                                            <input
+                                                type="text"
+                                                name="name"
+                                                id="name"
+                                                class="w-full p-2 border-2 rounded-lg transition focus:outline-2"
+                                            />
+                                        </div>
+                                        <div>
+                                            <label
+                                                for="price"
+                                                class="block mb-2"
+                                            >
+                                                Harga Jual:
+                                            </label>
+                                            <input
+                                                type="number"
+                                                name="price"
+                                                id="price"
+                                                class="w-full p-2 border-2 rounded-lg transition focus:outline-2"
+                                            />
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="px-4 pb-4">
+                                <button
+                                    class="px-4 py-2 bg-blue-900 text-white text-sm rounded-lg transition hover:bg-blue-950 focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-opacity-50"
+                                >
+                                    Tambah
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
